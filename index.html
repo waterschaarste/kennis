@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+thead input {
+        width: 100%;
+        padding: 1px;
+        box-sizing: border-box;
+    }
+div.container {
+        width: 100%;
+    }
+	body {
+ font-family: Calibri light;Segoe UI;Garamond;Roboto;Helvetica Neue;Noto Sans;Arial;sans-serif;
+	}
+a {
+  text-decoration: none;
+}
+
+</style >
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.datatables.net/2.1.8/css/dataTables.dataTables.css" />
+  <link rel="stylesheet" href="https://cdn.datatables.net/buttons/3.2.0/css/buttons.dataTables.css" />
+  <script src="https://cdn.datatables.net/2.1.8/js/dataTables.js"></script>
+  <script src="https://cdn.datatables.net/buttons/3.2.0/js/dataTables.buttons.js"> </script>
+  <script src="https://cdn.datatables.net/buttons/3.2.0/js/buttons.dataTables.js "></script>
+  <script src="https://cdn.datatables.net/buttons/3.2.0/js/buttons.colVis.min.js "></script>
+  <meta charset=utf-8 />
+  <title>Kennis waterbeschikbaarheid</title>
+
+</head>
+  
+<body>
+
+<div style="max-width:1600px;margin:auto">
+<!--- Tabel als kop --->
+<TABLE  class = "display" BORDER=1 BORDERCOLOR="#ffffff" CELLPADDING=4 CELLSPACING=0 style="width:100%; margin-left: auto; margin-right: auto; " >
+
+	<TR>
+		<TD COLSPAN=2 WIDTH=100%  BGCOLOR="#01689b" ALIGN=CENTER
+			><FONT COLOR="#ffffff"><FONT "><FONT SIZE=4 STYLE="font-size: 16pt"><B>Waterbeschikbaarheid
+			&ndash; publicaties, factsheets en monitoring</B>
+		</TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=2 WIDTH=100%  
+			><FONT COLOR="#000000"><FONT "><FONT SIZE=2 STYLE="font-size: 12pt"><B>Vier
+			thema's:</B>
+		</TD>
+	</TR>
+	<TR >
+		<TD WIDTH=50% BGCOLOR="#202f5a" VALIGN=TOP>
+			<FONT COLOR="#ffffff"><META NAME="CHANGEDBY" CONTENT="Bi Newname"><FONT "><FONT SIZE=2 STYLE="font-size: 11pt"><B>1.
+			Ontwikkeling van wateraanbod en watervraag</B> <br/> Toekomstige ontwikkeling waterbeschikbaarheid, klimaatfactoren en watervraag.
+		</TD>
+		<TD WIDTH=50% BGCOLOR="#d09443" VALIGN=TOP>
+			<FONT COLOR="#ffffff"><FONT "><FONT SIZE=2 STYLE="font-size: 11pt"><B>2.
+			Effecten en schade van waterschaarste</B><br/>Weerbaarheid en kwetsbaarheid natuur, schade en effecten van waterschaarste, veranderingen in landschap, natuur en landbouw.
+		</TD>
+	</TR>
+	<TR >
+		<TD WIDTH=50% BGCOLOR="#40b5e5" VALIGN=TOP>
+			<FONT COLOR="#ffffff"><FONT "><FONT SIZE=2 STYLE="font-size: 11pt"><B>3.
+			Oplossingen en maatregelen</B><br/>Ruimtelijke inrichting en aanpassen door watergebruikers, besparen, vasthouden, verdelen.
+		</TD>
+		<TD WIDTH=50% BGCOLOR="#db5811" VALIGN=TOP>
+			<FONT COLOR="#ffffff"><FONT "><FONT SIZE=2 STYLE="font-size: 11pt"><B>4.
+			Komen tot keuzen en uitvoering</B><br/>Indicatoren, monitoring en data, modellen, ondersteuning van besluitvorming, governance, waterbewustzijn.
+		</TD>
+	</TR>
+</TABLE>
+
+
+<!--- Begin tabel --->
+<table id="example" class="display compact"  data-order='[[ 3, "des" ]]' style="width:100%" >
+        <thead>
+            <tr>
+                <th>Titel</th>
+                <th>Thema</th>
+                <th>Regio</th>
+                <th>Datum</th>
+                <th>Partijen of programma</th>
+                <th>Kernwoorden</th>
+				<th>Opm</th>
+            </tr>
+			            <tr>
+                <th>Titel</th>
+                <th>Thema</th>
+                <th>Regio</th>
+                <th>Datum</th>
+                <th>Partijen of programma</th>
+                <th>Kernwoorden</th>
+				<th>Opm</th>
+            </tr>
+        </thead>
+        <tbody>
+
+		<TR>
+			<TD ><A target="_blank"  HREF="https://www.iksr.org/nl/publieksvoorlichting/documenten/archief/rapporten/rapporten-en-brochures-afzonderlijk/301-ontwikkeling-van-de-temperatuur-van-het-rijnwater-van-1978-t-m-2023">Ontwikkeling van de temperatuur van het Rijnwater van 1978 t/m 2023,</A> ICBR</TD>
+			<TD >1</TD>
+			<TD >Grote rivieren</TD>
+			<TD >2024-12</TD>
+			<TD >ICBR</TD>
+			<TD >Oppervlaktewater, rijn, internationaal, watertemperatuur, waterkwaliteit</TD>
+			<TD >Geen</TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://www.iksr.org/nl/publieksvoorlichting/documenten/archief/rapporten/rapporten-en-brochures-afzonderlijk/299-rapport-over-de-laagwater-en-droogtegebeurtenis-in-2022">Rapport over de laagwater- en droogtegebeurtenis in 2022,</A> ICBR</TD>
+			<TD >2</TD>
+			<TD >Grote rivieren</TD>
+			<TD >2024-12</TD>
+			<TD >ICBR</TD>
+			<TD >Oppervlaktewater, rijn, internationaal,laagwater, neerslagtekort, droogte</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://iopscience.iop.org/article/10.1088/2752-5295/ad8d01">Underestimation of meteorological drought intensity due to lengthening of the drought season with climate change,</A> KNMI</TD>
+			<TD >1,4</TD>
+			<TD >Landelijk</TD>
+			<TD >2024-11</TD>
+			<TD >KNMI</TD>
+			<TD >meteorologie, neerslagtekort, groeiseizoen, droogteseizoen</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://edepot.wur.nl/680041">Droogte en droogval van beken in zandgebieden van Nederland,</A> DPZW</TD>
+			<TD >2,4</TD>
+			<TD >Zandgronden</TD>
+			<TD >2024-11</TD>
+			<TD >MinIenW, DPZW</TD>
+			<TD >Oppervlaktewater, grondwater, Beekafvoerindex, waterkwaliteit, KRW</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://www.rijksoverheid.nl/documenten/rapporten/2024/11/08/bijlage-2-bijlage-kamerbrief-verkenning-beprijzen-watergebruik">Verkenning beprijzen watergebruik,</A> MinIenW</TD>
+			<TD >3</TD>
+			<TD >Landelijk</TD>
+			<TD >2024-11</TD>
+			<TD >MinIenW</TD>
+			<TD >Oppervlaktewater, grondwater, beprijzen, besparen</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://www.deltares.nl/expertise/publicaties/verkennende-systeemanalyse-zuidwestelijke-delta-basisdocument-voor-herijking-integrale-voorkeursstrategie-en-gebiedsprocessen">Verkennende systeemanalyse Zuidwestelijke Delta,</A> Deltares MinIenW</TD>
+			<TD >4</TD>
+			<TD >Kustgebieden</TD>
+			<TD >2024-11</TD>
+			<TD >Deltares</TD>
+			<TD >Oppervlaktewater, systeemkennis</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://www.stowa.nl/deltafacts/zoetwatervoorziening/droogte/effecten-klimaatverandering-op-landbouw">Effecten klimaatverandering op de landbouw,</A> STOWA (Deltafact update)</TD>
+			<TD >2</TD>
+			<TD >Landelijk</TD>
+			<TD >2024-11</TD>
+			<TD >STOWA</TD>
+			<TD >Oppervlaktewater, grondwater, landbouw</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://www.nhv.nu/stroming/nieuws/stromingen-20242-artikel-witte/">Meteorologische droogtemaat zonder groeiseizoen</A></TD>
+			<TD >4</TD>
+			<TD >Landelijk</TD>
+			<TD >2024-11</TD>
+			<TD >Artikel</TD>
+			<TD >meteorologie, neerslagtekort</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://www.deltares.nl/expertise/publicaties/vervolg-indirecte-bedreigingen-nadere-kwantificatie-impact-op-scheepvaart">Nadere kwantificatie impact maatregelen op scheepvaart,</A> RWS Deltares</TD>
+			<TD >2,3</TD>
+			<TD >Hoofdvaarwegen</TD>
+			<TD >2024-11</TD>
+			<TD >Deltares</TD>
+			<TD >Oppervlaktewater, scheepvaart, waterverdeling</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://www.stowa.nl/publicaties/juridische-mogelijkheden-van-waterschappen-voor-de-aanpak-van-bodemdaling-veenweiden">Juridische mogelijkheden van waterschappen voor de aanpak van bodemdaling in veenweiden,</A> STOWA</TD>
+			<TD >4</TD>
+			<TD >Veen</TD>
+			<TD >2024-10</TD>
+			<TD >STOWA</TD>
+			<TD >Oppervlaktewater, grondwater, bodemdaling, juridisch, wetgeving, beleid</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://www.knmi.nl/klimaatdashboard">Klimaatdashboard</A> KNMI</TD>
+			<TD >1</TD>
+			<TD >Landelijk</TD>
+			<TD >2024-08</TD>
+			<TD >KNMI</TD>
+			<TD >neerslag, temperatuur, neerslagtekort, SPEI, zeespiegelstijging, trend, verwachting</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://www.iksr.org/nl/publieksvoorlichting/documenten/archief/rapporten/rapporten-en-brochures-afzonderlijk/297-afvoerscenarios-klimaatverandering-voor-het-rijnstroomgebied">Afvoerscenario's klimaatverandering voor het Rijnstroomgebied,</A> ICBR</TD>
+			<TD >1</TD>
+			<TD >Grote rivieren</TD>
+			<TD >2024-07</TD>
+			<TD >ICBR</TD>
+			<TD >Afvoerscenario's, Rijn, internationale vergelijking</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://www.hdsr.nl/@164927/geschiktheidskaart-nieuwe-woon/">Geschiktheidskaart voor nieuwe woon- en werklocaties Utrecht</A></TD>
+			<TD >3</TD>
+			<TD >Provincie</TD>
+			<TD >2024-06</TD>
+			<TD >Waterschap</TD>
+			<TD >ruimtelijke inrichting, woningbouw</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://www.waddenacademie.nl/en/news/news-archive-item/rapport-over-zoetwaterbeschikbaarheid-waddengebied-verschenen/">Waterbeschikbaarheid Noord-Nederland,</A> Waddenacademie</TD>
+			<TD >4</TD>
+			<TD >IJsselmeergebied</TD>
+			<TD >2024-05</TD>
+			<TD >Waddenacademie</TD>
+			<TD >Waterverdeling, Waddenacademie</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://agrarischwaterbeheer.nl/maatregelen/?filterthema=verdroging-vernatting">Maatregelen tegen verdroging, landbouw.</A> DAW</TD>
+			<TD >3</TD>
+			<TD >Landelijk</TD>
+			<TD >2024-05</TD>
+			<TD >DAW</TD>
+			<TD >Landbouw, maatregelen, verdroging, bodem</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://www.deltaprogramma.nl/deltaprogramma/kennisontwikkeling-en-signalering/deltascenarios">Deltascenario's 2024,</A> DPZW</TD>
+			<TD >1</TD>
+			<TD >Landelijk</TD>
+			<TD >2024-04</TD>
+			<TD >Deltares</TD>
+			<TD >scenario's, wateropgave, sociaal-economische ontwikkeling</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://www.stowa.nl/publicaties/nut-en-noodzaak-van-seizoensverwachtingen-meteo-onderzoek-ten-behoeve-van-het-waterbeheer">Meteo-onderzoek ten behoeve van het waterbeheer: seizoensverwachtingen,</A> STOWA</TD>
+			<TD >3</TD>
+			<TD >Landelijk</TD>
+			<TD >2024-04</TD>
+			<TD >STOWA</TD>
+			<TD >meteorologie</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://www.deltaprogramma.nl/kennisprogramma-zeespiegelstijging/onderzoeksvragen">Zeespiegelstijging - lange termijn denkrichtingen,</A> KPZSS</TD>
+			<TD >3</TD>
+			<TD >Kustgebieden</TD>
+			<TD >2024-03</TD>
+			<TD >KP ZSS</TD>
+			<TD >verzilting, waterveiligheid, zeewaarts, beschermen, meebewegen</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://klimaatvalleienveluwe.nl/wp-content/uploads/2024/06/138024-24-004.720-oth-definitief-rapport-deskstudie-Wateraccu-Noord-Veluwe-290324.pdf">Wateraccu Noord-Veluwe,</A> prov Gelderland</TD>
+			<TD >3</TD>
+			<TD >Zandgronden</TD>
+			<TD >2024-03</TD>
+			<TD >Provincie</TD>
+			<TD >water vasthouden</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://open.overheid.nl/documenten/4e21a636-2092-4a5e-9f4f-8a930c3902d5/file">Concentraat/brijnproblematiek bij toepassing ontziltingstechnologie,</A> MinIenW</TD>
+			<TD >3</TD>
+			<TD >Landelijk</TD>
+			<TD >2024-03</TD>
+			<TD >MinIenW</TD>
+			<TD >Ontzilting, brijn, waterketen, drinkwater, tuinbouw, grondwater</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://www.deltares.nl/expertise/publicaties/droogte-van-2022-een-brede-analyse-van-de-ernst-en-maatschappelijke-gevolgen-achtergrondrapport">Droogte van 2022: een brede analyse van de ernst en maatschappelijke gevolgen,</A> Deltares</TD>
+			<TD >2</TD>
+			<TD >Landelijk</TD>
+			<TD >2024-03</TD>
+			<TD >Deltares</TD>
+			<TD >Effecten, droogte, 2022</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://kennisbank.deltares.nl/pub/Details/fullCatalogue/300079310">Verandering afvoerregime Rijn in de toekomst, en impact op zoetwaterbeschikbaarheid, waterveiligheid, natuur en bevaarbaarheid,</A> Deltares</TD>
+			<TD >1,2</TD>
+			<TD >Grote rivieren</TD>
+			<TD >2024-02</TD>
+			<TD >Deltares</TD>
+			<TD >afvoer, Rijn, effect, bevaarbaarheid, waterbeschikbaarheid</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://edepot.wur.nl/640935">Huidige klimaatrisico's voor de land- en tuinbouw,</A> WUR</TD>
+ 		<TD >2</TD>
+			<TD >Landelijk</TD>
+			<TD >2024-02</TD>
+			<TD >WUR</TD>
+			<TD >Landbouw, droogte, extreme neerslag</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://klimap.nl/overzicht-maatregelen">Overzicht maatregelen hoge zandgronden,</A> KLIMAP</TD>
+			<TD >3</TD>
+			<TD >Zandgronden</TD>
+			<TD >2024-02</TD>
+			<TD >KLIMAP</TD>
+			<TD >effectiviteit en haalbaarheid van maatregelen</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://www.deltares.nl/expertise/publicaties/vervolg-stresstest-indirecte-bedreigingen-systeembeschrijving-hoofdwatersysteem">Vervolg Stresstest Indirecte Bedreigingen scheepvaart, Systeembeschrijving Hoofdwatersysteem,</A> RWS</TD>
+			<TD >2,4</TD>
+			<TD >Hoofdvaarwegen</TD>
+			<TD >2024-01</TD>
+			<TD >Deltares</TD>
+			<TD >Scheepvaart, Waterverdeling HWS</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://www.deltares.nl/en/expertise/publications/implications-of-the-knmi23-climate-scenarios-for-the-discharge-of-the-rhine-and-meuse">Implications of the KNMI'23 climate scenarios for the discharge of the Rhine and Meuse,</A> Deltares</TD>
+			<TD >1</TD>
+			<TD >Grote rivieren</TD>
+			<TD >2023-12</TD>
+			<TD >Deltares</TD>
+			<TD >Afvoerscenario's, Rijn, Maas</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://www.deltaprogramma.nl/kennisprogramma-zeespiegelstijging/documenten/publicaties/2023/11/09/20231107-9525_tussenbalans-kennisprogramma-zeespiegelstijging_06-webversie">Kennisprogramma zeespiegelstijging tussenbalans,</A> KPZSS</TD>
+			<TD >1</TD>
+			<TD >Kustgebieden</TD>
+			<TD >2023-11</TD>
+			<TD >KP ZSS</TD>
+			<TD >verzilting, lange termijn</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://www.knmi.nl/kennis-en-datacentrum/achtergrond/knmi-23-klimaatscenario-s">Klimaatscenario's 2023</A> KNMI</TD>
+			<TD >1</TD>
+			<TD >Landelijk</TD>
+			<TD >2023-10</TD>
+			<TD >KNMI</TD>
+			<TD >Klimaatverandering, klimaatscenario, neerslag, verdamping, temperatuur</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://www.stowa.nl/publicaties/droogtestatistiek-meteo-onderzoek-ten-behoeve-van-het-waterbeheer-deelrapport-3">Meteo-onderzoek ten behoeve van het waterbeheer: droogtestatistiek,</A> STOWA</TD>
+			<TD >4</TD>
+			<TD >Landelijk</TD>
+			<TD >2023-10</TD>
+			<TD >STOWA</TD>
+			<TD >neerslagtekort, indicatoren, aantal droge dagen</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://www.klimaatadaptatiebrabant.nl/klimaatverhalen/grondwater">Hoe kan het Brabantse grondwater weer structureel omhoog?</A> prov Noord-Brabant</TD>
+			<TD >3</TD>
+			<TD >Zandgronden</TD>
+			<TD >2023-08</TD>
+			<TD >Provincie</TD>
+			<TD >vasthouden, besparen, infiltreren</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://www.deltaprogramma.nl/kennisprogramma-zeespiegelstijging/documenten/publicaties/2023/06/05/systeemanalyse-kpzss-grondwaterverzilting-en-watervraag-bij-een-stijgende-zeespiegel">Systeemanalyse KPZSS Grondwaterverzilting bij een stijgende zeespiegel,</A> KPZSS</TD>
+			<TD >1</TD>
+			<TD >Kustgebieden</TD>
+			<TD >2023-06</TD>
+			<TD >KP ZSS</TD>
+			<TD >verzilting, grondwater, lange termijn</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://www.rijksoverheid.nl/documenten/publicaties/2023/06/05/systeemverkenningen-kennisprogramma-zeespiegelstijging">Systeemanalyses KPZSS verzilting,</A> KPZSS</TD>
+			<TD >1</TD>
+			<TD >Kustgebieden</TD>
+			<TD >2023-06</TD>
+			<TD >KP ZSS</TD>
+			<TD >verzilting, Amsterdam-Rijnkanaal, Volkerak-Zoommeer, IJsselmeergebied, Rijn-Maasmonding</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://open.rijkswaterstaat.nl/zoeken/@253589/droogteseizoen-2022-terugblik-wmcn-lcw/">Droogteseizoen 2022, terugblik </A>WMCN-LCW&nbsp;(&nbsp;<A target="_blank"  HREF="https://open.rijkswaterstaat.nl/zoeken/@183883/droogteseizoen-2020-terugblik-wmcn-lcw">2020,</A>&nbsp;<A target="_blank"  HREF="https://open.rijkswaterstaat.nl/zoeken/@143511/droogteseizoen-2019-terugblik-wmcn-lcw">2019 &nbsp;</A><A target="_blank"  HREF="https://open.rijkswaterstaat.nl/zoeken/@101620/droogteseizoen-2018-lcw-terugblik/">2018)</A></TD>
+			<TD >2,3</TD>
+			<TD >Landelijk</TD>
+			<TD >2022-12</TD>
+			<TD >LCW</TD>
+			<TD >Evaluatie, maatregelen, effecten</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://www.groenmonitor.nl/sites/default/files/droogteschade_grasland_15aug2022.pdf">Grasland heeft serieuze droogteschade in 2022, maar minder erg dan in 2018,</A> groenmonitor</TD>
+			<TD >2</TD>
+			<TD >Landelijk</TD>
+			<TD >2022-08</TD>
+			<TD >WUR</TD>
+			<TD >landbouw</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://open.rijkswaterstaat.nl/open-overheid/onderzoeksrapporten/%4056511/klimaatbestendige-netwerken-kbn/">Klimaatbestendige netwerken Stresstest hoofdvaarwegennet Deelrapport droogte,</A> RWS</TD>
+			<TD >2</TD>
+			<TD >Grote rivieren</TD>
+			<TD >2022-04</TD>
+			<TD >RWS</TD>
+			<TD >scheepvaart, lage afvoeren</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://edepot.wur.nl/568574">oplossingsrichtingen voor een hydrologisch goed functionerend grondwatersysteem in de zandgebieden</A></TD>
+			<TD >3</TD>
+			<TD >Zandgronden</TD>
+			<TD >2022-04</TD>
+			<TD ></TD>
+			<TD >vasthouden, besparen, infiltreren</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://www.natuurkennis.nl/Uploaded_files/Publicaties/obn-droogte-11mei21.332b60.pdf">Droogte ingrijpend voor natuur in hoog Nederland,</A> VBN/OBNE</TD>
+			<TD >2</TD>
+			<TD >Zandgronden</TD>
+			<TD >2021-05</TD>
+			<TD >VBN/OBNE</TD>
+			<TD >natuur</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://op.europa.eu/en/publication-detail/-/publication/7d148604-faf0-11e5-b713-01aa75ed71a1/language-en">Guidance document on the application of water balances for supporting the implementation of the WFD.</A> EU</TD>
+			<TD >4</TD>
+			<TD >Landelijk</TD>
+			<TD >2015-05</TD>
+			<TD >EU</TD>
+			<TD >Waterbalansen, Europa, internationaal</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD  >Verwacht: Verantwoord infiltreren en aanvullen grondwater, STOWA</TD>
+			<TD >3</TD>
+			<TD >Landelijk</TD>
+			<TD ></TD>
+			<TD >STOWA</TD>
+			<TD >Grondwater, infiltreren, vasthouden</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://library.kwrwater.nl/publication/71685755/interventies-in-het-watersysteem/">Interventies in het watersysteem</A>, KWR</TD>
+			<TD >3,4</TD>
+			<TD >Landelijk</TD>
+			<TD >2024-04</TD>
+			<TD >KWR, WICE</TD>
+			<TD >Oppervlaktewater, grondwater, modellen, systeemkennis</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://library.kwrwater.nl/publication/68839218/beschikbare-kennis-van-stromen-in-het-watersysteem-dataverzameling-voor-conceptuele-watersysteemmodellen/">Beschikbare kennis van stromen in het watersysteem</A>, KWR</TD>
+			<TD >4</TD>
+			<TD >Landelijk</TD>
+			<TD >2022-07</TD>
+			<TD >KWR, WICE</TD>
+			<TD >Oppervlaktewater, grondwater, meetgegevens, monitoring, systeemkennis</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://library.kwrwater.nl/publication/69265309/juridisch-kader-aanvulling-watersysteem-met-industrieel-restwater/">Juridisch kader aanvulling watersysteem met industrieel restwater</A>, KWR</TD>
+			<TD >3</TD>
+			<TD >Landelijk</TD>
+			<TD >2022-07</TD>
+			<TD >KWR, WICE</TD>
+			<TD >Oppervlaktewater, grondwater, juridisch, wetgeving, waterketen, infiltratie</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://api.kwrwater.nl//uploads/2024/01/KWR-2023.062-Effect-waterbesparing-stedelijk-gebied-op-regionale-watersysteem-Casus-SUPERLOCAL-(OPENBAAR).pdf">Effect van waterbesparing in stedelijk gebied op het regionale watersysteem, casus Superlocal</A>, KWR</TD>
+			<TD >3</TD>
+			<TD >Landelijk</TD>
+			<TD >2023-12</TD>
+			<TD >KWR, WICE</TD>
+			<TD >Oppervlaktewater, grondwater, waterbesparing,hergebruik, waterbalans, model, waterketen, stedelijk</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://library.kwrwater.nl/publication/71685248/inzicht-in-het-watersysteem-door-toepassing-van-een-systeemmodel/">Inzicht in het watersysteem door toepassing van een systeemmodel</A>, KWR</TD>
+			<TD >3,4</TD>
+			<TD >Zandgronden</TD>
+			<TD >2024-04</TD>
+			<TD >KWR, WICE</TD>
+			<TD >Oppervlaktewater, grondwater, watrebalans, model</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://research.wur.nl/en/publications/droogte-in-zandgebieden-van-zuid-midden-en-oost-nederland-het-ver-2">Droogte in zandgebieden van Zuid-, Midden- en Oost-Nederland : het verhaal - analyse van droogte 2018 en 2019 en bevindingen : eindrapport</A></TD>
+			<TD >2, 3, 4</TD>
+			<TD >Zandgronden</TD>
+			<TD >2021-10</TD>
+			<TD >KnowH2O</TD>
+			<TD >Grondwater, vasthouden, bergen, waterbalans, model</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://www.stowa.nl/publicaties/waterkwantiteit-het-veen-watervraag-watertekort-en-wateroverlast-door-waterinfiltratiemaatregelen-en">Waterkwantiteit in het veen. Watervraag, watertekort en wateroverlast door waterinfiltratiemaatregelen en vernatting in het veenweidegebied</A>, Stowa</TD>
+			<TD >1,3</TD>
+			<TD >Veen</TD>
+			<TD >2024-11</TD>
+			<TD >Deltares, Acacia</TD>
+			<TD >Oppervlaktewater, grondwater</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD ><A target="_blank"  HREF="https://www.deltares.nl/expertise/publicaties/results-of-the-meuse-extreme-drought-hackathon-a-report-on-the-observations-shared-by-the-participants">Results of the Meuse extreme drought Hackathon</A>, RWS Deltares RIWA</TD>
+			<TD  >1,2</TD>
+			<TD >Grote rivieren</TD>
+			<TD >2024-12</TD>
+			<TD >Deltares, RWS, RIWA, Universtiteit Luik, Aachen</TD>
+			<TD >Oppervlaktewater, Maas, internationaal, effecten</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD  ><A target="_blank"  HREF="https://www.deltaprogramma.nl/themas/documenten/publicaties/2025/01/16/houtskoolschetsen-hoekpunten-zoetwaterstrategieen">Houtskoolschetsen hoekpunten zoetwaterstrategie&euml;n</A>, DPZW</TD>
+			<TD  >2,3</TD>
+			<TD >Landelijk</TD>
+			<TD >2025-01</TD>
+			<TD >MinIenW</TD>
+			<TD >Waterverdeling, scenarios</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD  ><A target="_blank"  HREF="https://www.rijksoverheid.nl/documenten/kamerstukken/2024/05/31/nieuwe-inzichten-zoetwaterbeschikbaarheid">Kamerbrief nieuwe inzichten zoetwaterbeschikbaarheid</A>, MinIenW</TD>
+			<TD >1, 2, 3, 4</TD>
+			<TD >Landelijk</TD>
+			<TD >2024-05</TD>
+			<TD >MinIenW</TD>
+			<TD >Beleid, waterverdeling, oppervlaktewater, grondwater</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD  ><A target="_blank"  HREF="https://edepot.wur.nl/684849">Gevolgen van de droge jaren 2018-2020 voor de vegetatie van de natuurgebieden op de Hogere Zandgronden van Nederland</A>, MinLVVN</TD>
+			<TD >2</TD>
+			<TD >Zandgronden</TD>
+			<TD >2024-12</TD>
+			<TD >MinLVVN, WUR, KnowH2O, FWE</TD>
+			<TD >Gevolgen, effecten, natuur, droogte, evaluatie, oppervlaktewater, grondwater</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD  ><A target="_blank"  HREF="https://www.stowa.nl/publicaties/afwegingskader-inlaat-gebiedsvreemd-water-voor-natuur-plus-inhoudelijke-onderbouwing-rapport">Afwegingskader inlaat gebiedsvreemd water voor natuur</A>, STOWA</TD>
+			<TD  >2,3</TD>
+			<TD >Landelijk</TD>
+			<TD >2024-10</TD>
+			<TD >STOWA</TD>
+			<TD >Waterverdeling ,natuur, waterkwaliteit, oppervlaktewater, grondwater</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD  ><A target="_blank"  HREF="https://research.wur.nl/en/publications/naar-een-herstel-van-de-waterbalans-voor-grondwaterafhankelijke-n">Naar een herstel van de waterbalans voor grondwaterafhankelijke natuur - modelinstrumentarium</A>, WUR</TD>
+			<TD   >3,4</TD>
+			<TD >Landelijk</TD>
+			<TD >2024-10</TD>
+			<TD >WUR, WENR, KWR</TD>
+			<TD >grondwater, landbouw, natuur, economie, model, waterbalans</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD  ><A target="_blank"  HREF="https://www.rli.nl/publicaties/2024/advies/ruimtelijke-ordening-in-een-veranderend-klimaat">Ruimtelijke ordening in een veranderend klimaat</A>, RLI</TD>
+			<TD   >3,4</TD>
+			<TD >Landelijk</TD>
+			<TD >2024-06</TD>
+			<TD >RLI, raad</TD>
+			<TD >Ruimtegebruik, wateragenda</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD  ><A target="_blank"  HREF="https://www.rijksoverheid.nl/documenten/rapporten/2024/07/09/water-voor-waterstof-rapport">Water voor waterstof,</A> MinKGG</TD>
+			<TD   >1</TD>
+			<TD >Landelijk</TD>
+			<TD >2024-10</TD>
+			<TD >MinKGG</TD>
+			<TD >waterbeschikbaarheid, energie, waterstof, beleid</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD  ><A target="_blank"  HREF="https://open.rijkswaterstaat.nl/open-overheid/onderzoeksrapporten/@226963/verhaal-rijntakken/">Het verhaal van de Rijntakken</A>, RWS</TD>
+			<TD  >4</TD>
+			<TD >Grote rivieren</TD>
+			<TD >2020-01</TD>
+			<TD >RWS</TD>
+			<TD >basiskennis, systeemkennis, oppervlaktewater</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD  ><A target="_blank"  HREF="https://www.h2owaternetwerk.nl/h2o-podium/uitgelicht/water-vasthouden-in-perspectief-voor-waterschap-hunze-en-aas">Water vasthouden in perspectief</A>, waterschap Hunze en Aa&rsquo;s</TD>
+			<TD   >2,3</TD>
+			<TD >Waterschap</TD>
+			<TD >2024-04</TD>
+			<TD >Waterschap Hunze en Aa's</TD>
+			<TD >vasthouden, waterbalans, systeemkennis</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD  ><A target="_blank"  HREF="https://iplo.nl/thema/water/beheer-watersysteem/infographics-operationeel-watermanagement/@291053/kaarten-waterverdeling-lage-afvoeren/">Kaarten waterverdeling bij lage afvoeren</A> (<A target="_blank"  HREF="https://wkaart.github.io/wkaart/waterverdeling">interactief</A>), DPZW </TD>
+			<TD   >3,4</TD>
+			<TD >Landelijk</TD>
+			<TD >2024-04</TD>
+			<TD >MinIenW, RWS, UvW, DPZW</TD>
+			<TD >Waterverdeling, 2022, oppervlaktewater, systeemkennis, evaluatie, basiskennis</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD  ><A target="_blank"  HREF="https://iplo.nl/thema/water/beheer-watersysteem/infographics-operationeel-watermanagement/">Infographics operationeel watermanagement</A>, RWS</TD>
+			<TD   >3,4</TD>
+			<TD >Hoofdwatersysteem</TD>
+			<TD >2022-04</TD>
+			<TD >RWS</TD>
+			<TD >Waterverdeling , beheer, grote rivieren, kanalen, systeemkennis, basiskennis, kaarten</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD  ><A target="_blank"  HREF="https://www.hdsr.nl/buurt/bodemdaling/onderzoeken/">Onderzoeken en (praktijk)proeven bodemdaling veenweide</A>, HDSR</TD>
+			<TD >1, 2, 3, 4</TD>
+			<TD >Veen</TD>
+			<TD >2024-04</TD>
+			<TD >Waterschap Stichtse Rijnland</TD>
+			<TD >Bodemdaling, veen, grondwater, drainage, waterkwaliteit</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD  ><A target="_blank"  HREF="https://eowijers.nl/finalisten/tweestromenland-zelfrijzende-deltastad/">Tweestromenland - zelfbouwend fundament voor een deltastad</A>, EO Wijersprijs</TD>
+			<TD   >3</TD>
+			<TD >RMM</TD>
+			<TD >2023-10</TD>
+			<TD >TU-Delft, H+N+S, Palmbout, Erasmus universiteit, ARK Rewilding, WWF</TD>
+			<TD >Rijn-Maasmonding, ontwerp, ruimtelijke inrichting</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD  ><A target="_blank"  HREF="https://www.binnenvaart.nl/actueel/nieuwsbericht/koninklijke-binnenvaart-nederland-publiceert-toekomstvisie-voor-laagwater">Toekomstvisie laagwater scheepvaart,</A> KBN</TD>
+			<TD   >3,4</TD>
+			<TD >Hoofdvaarwegen</TD>
+			<TD >2023-09</TD>
+			<TD >KBN</TD>
+			<TD >Oppervlaktewater, scheepvaart, vaarwegen, trend</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD  ><A target="_blank"  HREF="https://www.deltares.nl/expertise/publicaties/onderzoek-naar-effecten-van-de-zoutdam-ijmuiden">Onderzoek naar effecten van de Zoutdam IJmuiden,</A> RWS, Deltares</TD>
+			<TD   >3</TD>
+			<TD >Hoofdwatersysteem</TD>
+			<TD >2025-01</TD>
+			<TD >Deltares, RWS</TD>
+			<TD >verzilting, selectieve onttrekking, Noordzeekanaal, Amsterdam-Rijnkanaal</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD  ><A target="_blank"  HREF="https://www.deltares.nl/expertise/publicaties/zoutmodellering-in-de-rijn-maasmonding-inventarisatie-van-toepassingsbereik-en-beperkingen">Zoutmodellering in de Rijn-Maasmonding: inventarisatie van toepassingsbereik en beperkingen</A>. RWS, Deltares</TD>
+			<TD   >4</TD>
+			<TD >RMM</TD>
+			<TD >2025-01</TD>
+			<TD >Deltares, RWS</TD>
+			<TD >model, verzilting, RMM</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD  ><A target="_blank"  HREF="https://www.deltares.nl/expertise/publicaties/vervolg-indirecte-bedreigingen-nadere-kwantificatie-impact-op-scheepvaart">Vervolg indirecte bedreigingen : nadere kwantificatie impact op scheepvaar</A>t, RWS, Deltares</TD>
+			<TD   >2</TD>
+			<TD >Hoofdvaarwegen</TD>
+			<TD >2024-11</TD>
+			<TD >Deltares, RWS</TD>
+			<TD >Scheepvaart, waterverdeling, stresstest, klimaatbestendig, zoutindringing</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD  ><A target="_blank"  HREF="https://www.deltares.nl/expertise/publicaties/strategische-verkenning-rivieren-huidige-en-toekomstige-knelpunten-voor-scheepvaart-zoetwatervoorziening-natuur-en-hoogwaterveiligheid">Strategische verkenning rivieren, huidige en toekomstige knelpunten voor scheepvaart, zoetwatervoorziening, natuur en waterveiligheid</A>, Deltares</TD>
+			<TD  >1,4</TD>
+			<TD >Grote rivieren</TD>
+			<TD >2024-07</TD>
+			<TD >Deltares</TD>
+			<TD >Rijn, Maas, verkenning, natuur, oppervlaktewater</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD  ><A target="_blank"  HREF="https://www.deltares.nl/expertise/publicaties/waterkwaliteit-van-de-toekomst-data-analyse-naar-de-invloed-van-klimaatverandering-en-weersextremen-in-beheergebied-waterschap-aa-en-maas">Waterkwaliteit van de toekomst : data analyse naar de invloed van klimaatverandering en weersextremen in beheergebied Aa en Maas</A>, Deltares</TD>
+			<TD   >1,2</TD>
+			<TD >Waterschap</TD>
+			<TD >2024-06</TD>
+			<TD >Deltares, waterschap Aa en Maas</TD>
+			<TD >nutri&euml;nten, watertemperatuur</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD  ><A target="_blank"  HREF="https://www.deltares.nl/expertise/publicaties/extra-debiet-over-stuw-hagestein-voor-het-tegengaan-van-verzilting-van-de-lek">Extra debiet over stuw Hagestein voor het tegengaan van verzilting van de Lek</A>, RWS, Deltares</TD>
+			<TD   >1,3</TD>
+			<TD >Grote rivieren</TD>
+			<TD >2024-07</TD>
+			<TD >Deltares, RWS</TD>
+			<TD >Lek, verzilting, surplus, waterbalans</TD>
+			<TD ></TD>
+		</TR>		
+		<TR>
+			<TD  ><A target="_blank" HREF="https://www.deltares.nl/expertise/publicaties/vertaling-van-de-deltascenarios-2024-naar-invoer-voor-het-nationaal-water-model">Vertaling van de Deltascenario's 2024 naar invoer voor het Nationaal Water Model</A>, Deltares, DPZW</TD>
+			<TD  >1,4</TD>
+			<TD >Landelijk</TD>
+			<TD >2024-04</TD>
+			<TD >Deltares, RWS, DPZW</TD>
+			<TD >Model, scenario</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD  ><A target="_blank" HREF="https://www.deltares.nl/expertise/publicaties/zoetwaterbalans-van-laag-nederland-in-een-warmer-klimaat">Zoetwaterbalans van laag Nederland in een warmer klimaat</A>, DPZW, Deltares</TD>
+			<TD  >1</TD>
+			<TD >Landelijk</TD>
+			<TD >2024-02</TD>
+			<TD >Deltares, DPZW</TD>
+			<TD >waterbalans, scenario</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD  ><A target="_blank" HREF="https://www.deltares.nl/expertise/publicaties/sponswerking-van-landschappen-in-nederland">Sponswerking van landschappen in Nederland</A> (en <A target="_blank" HREF="https://www.deltares.nl/expertise/publicaties/sponswerking-van-landschappen-in-nederland-casestudie-chaamse-beken">casestudie Chaamse Beken</A>), MinIenW, Deltares</TD>
+			<TD   >3</TD>
+			<TD >Landelijk</TD>
+			<TD >2024-01</TD>
+			<TD >Deltares, MinIenW</TD>
+			<TD >Water vasthouden, sponswerking, systeemkennis, basiskennis, grondwater</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD  ><A target="_blank" HREF="https://www.nobveenweiden.nl/maatregelen/">Nationaal onderzoeksprogramma broeikasgassen veenweiden NOBV</A>, MinLVVN, STOWA</TD>
+			<TD >1, 2, 3, 4</TD>
+			<TD >Veen</TD>
+			<TD >2024-05</TD>
+			<TD >MinLVVN, STOWA</TD>
+			<TD >maatregelen, veenweide, juridisch, infiltratie, grondwater, natuur</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD  ><A target="_blank" HREF="https://www.cbs.nl/nl-nl/publicatie/2023/03/waterrekeningen-nederland">Waterrekeningen Nederland 2018, 2019, 2020</A>,, CBS</TD>
+			<TD  >4</TD>
+			<TD >Landelijk</TD>
+			<TD >2023-01</TD>
+			<TD >CBS</TD>
+			<TD >Waterbalans, indicatoren, grondwater, oppervlaktewater, wateraccount, systeemkennis, basiskennis</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD  ><A target="_blank" HREF="https://edepot.wur.nl/671444">Extreme weersomstandigheden en de gezondheid van landbouwbodems,</A> WUR</TD>
+			<TD   >2</TD>
+			<TD >Landelijk</TD>
+			<TD >2024-08</TD>
+			<TD >MinLVVN </TD>
+			<TD >droogte, bodem, landbouw</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD  ><A target="_blank" HREF="https://www.rijksoverheid.nl/documenten/rapporten/2025/01/13/bijlage-2-actieprogramma-beschikbaarheid-drinkwaterbronnen-2023-2030">Actieprogramma beschikbaarheid drinkwaterbronnen 2023-2030</A>, IPO, Vewin. MinIenW</TD>
+			<TD   >3</TD>
+			<TD >Landelijk</TD>
+			<TD >2025-01</TD>
+			<TD >IPO, Vewin. MinIenW</TD>
+			<TD >Maatregelen, drinkwater</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD  ><A target="_blank" HREF="https://www.stowa.nl/nieuws/waterwijzer-natuur-hulpmiddel-bij-ruimtelijke-afwegingen">Waterwijzer natuur</A>, KWR</TD>
+			<TD >2,3</TD>
+			<TD >Landelijk</TD>
+			<TD >2024-08</TD>
+			<TD >KWR, STOWA, WUR</TD>
+			<TD >Model, scenario, natuur</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD  ><A target="_blank" HREF="https://www.deltaprogramma.nl/themas/documenten/publicaties/2023/10/18/zoetwaterbouwstenen-ijsselmeer-verkenning-hydrologische-effectiviteit-zoetwater">Zoetwaterbouwstenen IJsselmeer - verkenning hydrologische effectiviteit zoetwater, </A>DPZW</TD>
+			<TD >3</TD>
+			<TD >IJsselmeer</TD>
+			<TD >2023-10</TD>
+			<TD >DPZW</TD>
+			<TD >verzilting, peilbeheer, waterbalans</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD  ><A target="_blank" HREF="https://www.deltaprogramma.nl/themas/documenten/publicaties/2023/09/08/effectiviteit-van-bufferzones-voor-grondwaterstandsverhoging-in-grondwaterafhankelijke-natuurgebieden-op-de-zandgronden">Effectiviteit van bufferzones voor grondwaterstandsverhoging in grondwaterafhankelijke natuurgebieden op de zandgronden, </A>DPZW</TD>
+			<TD >3</TD>
+			<TD >Zandgronden</TD>
+			<TD >2023-09</TD>
+			<TD >DPZW, Deltares</TD>
+			<TD >grondwater, bufferzones, natuur</TD>
+			<TD ></TD>
+		</TR>
+		<TR>
+			<TD  ><A target="_blank" HREF="https://www.deltaprogramma.nl/themas/documenten/publicaties/2023/09/19/potentie-van-watervraagreductie-in-het-veengebied">Potentie van watervraagreductie in het veengebied, </A>DPZW</TD>
+			<TD >3</TD>
+			<TD >Veen</TD>
+			<TD >2023-09</TD>
+			<TD >DPZW, Deltares</TD>
+			<TD >watervraag hoofdwatersysteem, flexibel peilbeheer</TD>
+			<TD ></TD>
+		</TR>	
+		<TR>
+			<TD  ><A target="_blank" HREF="https://doi.org/10.18174/685404">Programmaplan : omgaan met zout in landbouw, natuur en waterbeheer </A></TD>
+			<TD >2, 4</TD>
+			<TD >Kustgebieden</TD>
+			<TD >2025-01</TD>
+			<TD >STOWA, MINLVVN, MinIenW,DPZW, WENR, KWR, Deltares</TD>
+			<TD >verzilting, zouttolerantie, bodem, grondwater, Oppervlaktewater</TD>
+			<TD ></TD>
+		</TR>			
+   </tbody>
+   
+        <tfoot>
+            <tr>
+                <th>Titel</th>
+                <th>Thema</th>
+                <th>Regio</th>
+                <th>Datum</th>
+                <th>Partijen of programma</th>
+                <th>Kernwoorden</th>
+				<th>Opm</th>
+            </tr>
+        </tfoot>
+    </table>
+</div>	
+
+	
+<script>
+DataTable.defaults.column.orderSequence = ['asc', 'desc'];
+
+let table = new DataTable('#example', {
+
+  initComplete: function () {
+        this.api()
+            .columns()
+            .every(function () {
+                let column = this;
+                let title = column.header().textContent;
+ 
+                // Create input element
+                let input = document.createElement('input');
+                input.placeholder = title;
+                column.header().replaceChildren(input);
+ 
+                // Event listener for user input
+                input.addEventListener('keyup', () => {
+                    if (column.search() !== this.value) {
+                        column.search(input.value).draw();
+                    }
+                });
+            });
+
+    },
+	paging: true,
+    lengthMenu: [
+        [25, 50, -1, 10],
+        [25, 50, 'Alle', 10]
+    ],	
+	labels:{
+		perPage: "rijen per pagina"
+	},
+	language:{
+		search: "Zoek:",
+		lengthMenu: "_MENU_ _ENTRIES_ per pagina",
+		entries:{
+			_: 'rijen',
+			1: 'rij'
+		},
+		info: 'Toont _TOTAL_ _ENTRIES-TOTAL_',
+		infoFiltered: 'van _MAX_ rijen',
+	    buttons: {
+            colvis: 'Kolommen'
+        }
+	},
+
+	columnDefs: [
+       { targets: [4, 5, 6], visible: false},
+		{ className: 'dt-center', target: 1},
+// Setting a small width seems to prevent too large column width after initcomplete function
+		{ width: '2px', target: 1},
+		{ width: '2px', target: 2},
+		{ width: '2px', target: 3},
+		{ width: '2px', target: 4},
+		{ width: '2px', target: 6}
+    ],
+	layout: {
+        bottomStart: {
+            buttons: ['colvis']
+        },
+//	    topStart: 'search',
+        
+    }
+});
+
+</script>	
+
+
+
+</body>
